@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+ }
+  
+  body {
+     margin: 0px;
+     padding:0px;
+     font: poppins;
+  }
+  
+  #main{
+    width: 100%;
+    height: 16vh;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  .logo img{
+   height: 65px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .menu-space{
+    width: 17%;
+  }
+  
+  .menu li a{
+    height: 40px;
+    line-height: 45px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-decoration: none;
+  }
+  
+  a{
+    text-transform: uppercase;
+  }
+
+  .hey{
+    color: rgb(101, 210, 218);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(113, 219, 219);
+  }
+
+  .Content {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+
+  .image {
+    width: 500px;
+    height: 500px;
+  }
+
+  .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .main-text{
+     width: 600px;
+  }
+
+  .main-text h1 {
+    font-size: 67px;
+    color: #072c9a;
+    margin: 0px 0px 10px 0px;
+    line-height: 64px;
+  }
+
+  .main-text p{
+    font-size: 22px;
+    color: gray;
+  }
+
+  button{
+    border-radius: 30px;
+    background-color: #1db096;
+    border-color: #1db096;
+    box-shadow: 5px 5px 20px 0px #9c9b9b;
+  }
+
+  .resume-bin{
+    width: 191px;
+    height: 29px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  button:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+  }
+
+  .menu li a:hover{
+    background-color: #23cdaf;
+    color: snow;
+    transition: all ease 0.5s;
+  }
